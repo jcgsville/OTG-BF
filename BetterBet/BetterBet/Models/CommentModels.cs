@@ -5,13 +5,10 @@ using System.Web;
 
 namespace BetterBet.Models
 {
-    public class CommentModels
-    {
-    }
 
     public class Comment
     {
-        public User user { get; set; } //I don't know what the user model looks like right now
+        public UserModel user { get; set; }
 
         public string content { get; set; }
 
