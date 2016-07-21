@@ -9,7 +9,7 @@ namespace BetterBet.Models
     {
         public Guid betId { get; set; }
         public string challenge { get; set; }
-        public List<offerModel> offerList { get; set; }
+        public List<OfferModel> offerList { get; set; }
         public List<Comment> commentList { get; set; }
     }
 }
