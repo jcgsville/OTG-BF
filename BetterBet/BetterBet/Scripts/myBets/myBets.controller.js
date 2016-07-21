@@ -6,7 +6,7 @@
 
     myBetsCtrl.$inject = [];
 
-    angular.module('bbms.myBets')
+    angular.module('betterBets.myBets')
         .controller('myBetsController', myBetsCtrl);
 
 }());
