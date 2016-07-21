@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Better Bets</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://sky.blackbaudcdn.net/skyux/1.6.6/css/sky-bundle.css" integrity="sha384-0qQTcXi3TFJvyqm3IBveZiYW0GHbY8LuphtukDr6FkZdy6FEXIHdQ6yF6Z3GUbvK" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <script src="https://sky.blackbaudcdn.net/skyux/1.6.6/js/sky-bundle.min.js" integrity="sha384-DD+Y69jYPzp2eVhGSZyfXyW+TxZpImxAF4T16WyV4YVpycGhkUVzOiCE0jKscve/" crossorigin="anonymous"></script>
+
+    <script src="~/Scripts/betterbets.js"></script>
+    <script src="~/Scripts/betterbets.controller.js"></script>
+    <script src="~/Scripts/myBets/myBets.js"></script>
+    <script src="~/Scripts/myBets/myBets.controller.js"></script>
+
+    @section scripts {
+        @Scripts.Render("~/Scripts/app/quiz-controller.js")
+    }
+
+    <div data-ng-controller="betterBetsCtrl as betterBetsCtrl">
+
+    </div>
+
+</body>
+</html>
