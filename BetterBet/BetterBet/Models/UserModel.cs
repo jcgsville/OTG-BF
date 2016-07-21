@@ -11,6 +11,6 @@ namespace BetterBet.Models
         public Guid cardToken { get; set; }
         public string email { get; set; }
         public string password { get; set; }
-        public List<offerModel> offerList { get; set;}
+        public List<OfferModel> offerList { get; set;}
     }
 }
