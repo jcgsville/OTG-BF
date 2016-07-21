@@ -9,7 +9,7 @@ namespace BetterBet.Models
     {
         public UserModel user { get; set; }
         public UInt32 amount { get; set; }
-        public String charity { get; set; }
+        public Organization charity { get; set; }
         public String condition { get; set; }
     }
 }
